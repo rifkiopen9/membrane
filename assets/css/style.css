@@ -1,0 +1,10 @@
+/* Ritent Membrane custom styles */
+:root {
+  --ritent-dark:#0b1c30;
+  --ritent-green:#006d30;
+  --ritent-bg:#f8f9ff;
+}
+html { scroll-behavior:smooth; }
+body { background:var(--ritent-bg); }
+img { max-width:100%; }
+.wa-floating { position:fixed; right:20px; bottom:20px; z-index:999; }

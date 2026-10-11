@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+
+<html lang="id"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Plus+Jakarta+Sans:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"background":"#f8f9ff","error-container":"#ffdad6","tertiary-fixed":"#ffdcc3","surface-container-lowest":"#ffffff","on-surface":"#0b1c30","tertiary-container":"#2f1500","on-surface-variant":"#45464d","on-secondary-container":"#007233","on-primary-fixed":"#131b2e","surface-container-low":"#eff4ff","on-background":"#0b1c30","on-secondary-fixed":"#00210a","on-tertiary-container":"#c76c00","on-secondary-fixed-variant":"#005323","on-tertiary-fixed-variant":"#6e3900","on-primary-fixed-variant":"#3f465c","on-error":"#ffffff","primary-fixed-dim":"#bec6e0","secondary-fixed":"#95f8a7","surface":"#f8f9ff","secondary":"#006d30","on-primary-container":"#7c839b","primary-fixed":"#dae2fd","secondary-fixed-dim":"#79db8d","surface-container-high":"#dce9ff","tertiary":"#000000","on-tertiary":"#ffffff","on-secondary":"#ffffff","surface-container-highest":"#d3e4fe","inverse-primary":"#bec6e0","surface-bright":"#f8f9ff","inverse-surface":"#213145","secondary-container":"#92f5a4","on-error-container":"#93000a","inverse-on-surface":"#eaf1ff","surface-dim":"#cbdbf5","error":"#ba1a1a","surface-tint":"#565e74","surface-container":"#e5eeff","on-primary":"#ffffff","tertiary-fixed-dim":"#ffb77d","on-tertiary-fixed":"#2f1500","surface-variant":"#d3e4fe","outline":"#76777d","primary-container":"#131b2e","outline-variant":"#c6c6cd","primary":"#000000"},borderRadius:{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},spacing:{"margin":"3rem","space-md":"1rem","space-sm":"0.5rem","space-2xl":"4rem","space-xs":"0.25rem","space-3xl":"6rem","gutter-mobile":"1rem","gutter":"1.5rem","space-lg":"1.5rem","margin-mobile":"1.25rem","space-xl":"2.5rem"},fontFamily:{"display-hero-mobile":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"display-hero":["Plus Jakarta Sans"],"body-lg":["Inter"],"headline-lg-mobile":["Plus Jakarta Sans"],"body-md":["Inter"],"label-sm":["Inter"],"technical-mono":["Inter"],"body-sm":["Inter"],"headline-sm":["Plus Jakarta Sans"],"label-md":["Inter"]},fontSize:{"display-hero-mobile":["36px",{"lineHeight":"44px","letterSpacing":"-0.02em","fontWeight":"800"}],"headline-md":["28px",{"lineHeight":"36px","letterSpacing":"-0.015em","fontWeight":"600"}],"headline-lg":["40px",{"lineHeight":"48px","letterSpacing":"-0.02em","fontWeight":"700"}],"display-hero":["56px",{"lineHeight":"64px","letterSpacing":"-0.03em","fontWeight":"800"}],"body-lg":["18px",{"lineHeight":"28px","fontWeight":"400"}],"headline-lg-mobile":["28px",{"lineHeight":"36px","letterSpacing":"-0.01em","fontWeight":"700"}],"body-md":["15px",{"lineHeight":"24px","fontWeight":"400"}],"label-sm":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"500"}],"technical-mono":["12px",{"lineHeight":"16px","letterSpacing":"0.08em","fontWeight":"600"}],"body-sm":["13px",{"lineHeight":"20px","fontWeight":"400"}],"headline-sm":["20px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"600"}],"label-md":["14px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"600"}]}}}}</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 w-full bg-surface-container-lowest/95 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="w-full bg-primary-container text-surface border-b border-outline-variant/20"><div class="max-w-[1360px] mx-auto px-gutter flex flex-wrap items-center justify-between py-space-xs text-label-sm font-label-sm"><div class="flex items-center gap-space-lg flex-wrap"><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[16px] text-secondary-fixed">phone_in_talk</span><span class="font-technical-mono text-technical-mono">085542226363</span></div><div class="hidden sm:flex items-center gap-space-xs"><span class="material-symbols-outlined text-[16px] text-secondary-fixed">mail</span><span>ritentmembrane@gmail.com</span></div><div class="hidden lg:flex items-center gap-space-xs"><span class="material-symbols-outlined text-[16px] text-secondary-fixed">location_on</span><span>Jl. Raya Pulo Gebang No.186, Cakung, Jakarta Timur</span></div></div><div class="flex items-center gap-space-sm"><span class="inline-flex items-center px-space-sm py-0.5 rounded-full bg-secondary text-on-secondary text-label-sm font-label-sm uppercase tracking-wider"><span class="w-1.5 h-1.5 rounded-full bg-secondary-fixed mr-1.5 animate-pulse"></span>Melayani Jabodetabek & Seluruh Indonesia</span></div></div></div><div class="h-20 max-w-[1360px] mx-auto px-gutter flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md shrink-0"><img alt="Ritent Membrane Indonesia Logo" class="h-8 w-auto object-contain" src="assets/images/image_10.jpg"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm uppercase tracking-tight text-on-surface font-bold">Ritent Membrane</span><span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Tensile Architectural Structure</span></div></div><nav class="hidden xl:flex items-center gap-space-lg" data-active-classes="text-on-surface font-bold"><a aria-current="page" class="transition-colors text-on-surface font-bold" data-path="layanan" href="#">Layanan</a><a class="text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-colors" data-path="keunggulan" href="#">Keunggulan</a><a class="text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-colors" data-path="portfolio" href="#">Portfolio</a><a class="text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-colors" data-path="material-konstruksi" href="#">Material & Konstruksi</a><a class="text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-colors" data-path="cara-kerja" href="#">Cara Kerja</a><a class="text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-colors" data-path="area-layanan" href="#">Area Layanan</a><a class="text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-colors" data-path="faq" href="#">FAQ</a></nav><div class="flex items-center gap-space-md shrink-0"><a class="inline-flex items-center gap-space-xs px-space-lg py-space-sm bg-secondary text-on-secondary rounded-lg font-label-md text-label-md hover:bg-secondary-fixed-dim hover:text-on-secondary-fixed transition-all shadow-[0_1px_3px_0_rgba(15,23,42,0.06)]" href="https://wa.me/6285542226363?text=Halo%20Ritent,%20saya%20ingin%20konsultasi%20mengenai%20jasa%20kanopi%20membrane." rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[20px]">chat</span><span class="hidden sm:inline">Konsultasi via WhatsApp</span><span class="sm:hidden">WhatsApp</span></a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-28 bg-surface"><div class="flex flex-col w-full">
+<!-- 1. HERO SECTION -->
+<section class="w-full bg-surface-container-lowest py-space-2xl lg:py-space-3xl border-b border-outline-variant/30 relative overflow-hidden">
+<!-- Subtle Architectural Background Grid Accent -->
+<div class="absolute inset-0 opacity-[0.03] pointer-events-none bg-[radial-gradient(#0b1c30_1px,transparent_1px)] [background-size:24px_24px]"></div>
+<div class="max-w-[1360px] mx-auto px-gutter relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
+<!-- Text Column (7 Cols) -->
+<div class="lg:col-span-7 flex flex-col gap-space-md">
+<div class="inline-flex items-center gap-space-xs px-space-sm py-1 bg-surface-container rounded font-technical-mono text-technical-mono text-on-surface-variant w-fit">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+<span>JASA KANOPI MEMBRANE ARSITEKTURAL • JABODETABEK & NASIONAL</span>
+</div>
+<h1 class="font-display-hero text-headline-lg lg:text-display-hero text-on-surface tracking-tight leading-tight">
+            Jasa Kanopi Membrane untuk Rumah, Bisnis & Area Komersial
+          </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
+            Solusi kanopi membrane custom untuk berbagai kebutuhan, dengan desain yang disesuaikan dengan kondisi dan fungsi area. Melayani pengerjaan presisi di Jabodetabek dan proyek di berbagai wilayah Indonesia.
+          </p>
+<!-- Action Buttons -->
+<div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-space-md pt-space-xs">
+<a class="inline-flex items-center justify-center gap-space-xs px-space-xl py-3.5 bg-secondary text-on-secondary rounded font-label-md text-label-md hover:bg-secondary-fixed-variant transition-all shadow-[0_2px_8px_rgba(0,109,48,0.2)]" href="https://wa.me/6285542226363?text=Halo%20Ritent,%20saya%20ingin%20konsultasi%20mengenai%20jasa%20kanopi%20membrane." rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[20px]">chat</span>
+<span>Konsultasi & Minta Penawaran via WhatsApp</span>
+</a>
+<a class="inline-flex items-center justify-center gap-space-xs px-space-lg py-3.5 bg-surface-container-low text-on-surface hover:bg-surface-container rounded font-label-md text-label-md transition-all" href="#portfolio">
+<span>Lihat Hasil Pekerjaan</span>
+<span class="material-symbols-outlined text-[18px]">arrow_downward</span>
+</a>
+</div>
+<!-- Trust Badges (Real, Non-hyperbolic) -->
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-space-sm pt-space-md border-t border-outline-variant/30 text-label-sm font-label-sm text-on-surface-variant">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[18px] text-secondary">verified</span>
+<span>Jabodetabek & Sekitarnya</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[18px] text-secondary">explore</span>
+<span>Proyek Seluruh Indonesia</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[18px] text-secondary">architecture</span>
+<span>Custom Bentuk Tapak</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[18px] text-secondary">support_agent</span>
+<span>Konsultasi Cepat WA</span>
+</div>
+</div>
+</div>
+<!-- Visual Hero (5 Cols) -->
+<div class="lg:col-span-5 relative">
+<div class="relative rounded-xl overflow-hidden shadow-xl bg-surface-container-high group">
+<img alt="Struktur Kanopi Membrane Carport Residensial Mewah oleh Ritent Membrane" class="w-full h-[380px] lg:h-[480px] object-cover object-center group-hover:scale-[1.02] transition-transform duration-500 ease-out" src="assets/images/image_11.jpg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary-container/80 via-transparent to-transparent"></div>
+<!-- Architectural Spec Overlay Badge -->
+<div class="absolute bottom-4 left-4 right-4 bg-surface-container-lowest/95 backdrop-blur-sm p-space-sm rounded-lg shadow-sm flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-technical-mono text-technical-mono text-on-surface-variant uppercase">Tipe Struktur</span>
+<span class="font-headline-sm text-label-md font-bold text-on-surface">Tensile Hypar Carport Canopy</span>
+</div>
+<div class="flex items-center gap-1 text-secondary font-technical-mono text-label-sm font-bold">
+<span class="material-symbols-outlined text-[18px]">verified_user</span>
+<span>Custom Engineering</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 2. TRUST & SERVICE HIGHLIGHTS (Compact Strip) -->
+<section class="w-full bg-surface-container-low py-space-xl border-b border-outline-variant/30">
+<div class="max-w-[1360px] mx-auto px-gutter">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Highlight 1 -->
+<div class="bg-surface-container-lowest p-space-md rounded-lg shadow-sm flex flex-col gap-space-xs">
+<div class="w-10 h-10 rounded bg-surface-container flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[24px]">design_services</span>
+</div>
+<span class="font-headline-sm text-label-md font-bold text-on-surface pt-1">Custom Design</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Konsep arsitektural disesuaikan dengan kebutuhan ruang, estetika bangunan, dan kondisi tapak lokasi Anda.
+          </p>
+</div>
+<!-- Highlight 2 -->
+<div class="bg-surface-container-lowest p-space-md rounded-lg shadow-sm flex flex-col gap-space-xs">
+<div class="w-10 h-10 rounded bg-surface-container flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[24px]">domain</span>
+</div>
+<span class="font-headline-sm text-label-md font-bold text-on-surface pt-1">Berbagai Kebutuhan</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Solusi peneduh untuk carport hunian pribadi, cafe resto, drop-off komersial, hingga area parkir luas.
+          </p>
+</div>
+<!-- Highlight 3 -->
+<div class="bg-surface-container-lowest p-space-md rounded-lg shadow-sm flex flex-col gap-space-xs">
+<div class="w-10 h-10 rounded bg-surface-container flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[24px]">map</span>
+</div>
+<span class="font-headline-sm text-label-md font-bold text-on-surface pt-1">Jabodetabek & Indonesia</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Didukung armada workshop terpusat di Jakarta Timur dengan kesiapan proyek ke berbagai provinsi di Indonesia.
+          </p>
+</div>
+<!-- Highlight 4 -->
+<div class="bg-surface-container-lowest p-space-md rounded-lg shadow-sm flex flex-col gap-space-xs">
+<div class="w-10 h-10 rounded bg-surface-container flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[24px]">quickreply</span>
+</div>
+<span class="font-headline-sm text-label-md font-bold text-on-surface pt-1">Konsultasi Mudah</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Diskusikan dimensi awal, gambar denah, dan estimasi biaya langsung bersama tim teknis melalui WhatsApp.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- 3. SERVICES / USE CASES -->
+<section class="w-full bg-surface py-space-2xl lg:py-space-3xl border-b border-outline-variant/30" id="layanan">
+<div class="max-w-[1360px] mx-auto px-gutter flex flex-col gap-space-xl">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs max-w-2xl">
+<span class="font-technical-mono text-technical-mono text-secondary uppercase tracking-wider">Aplikasi Struktur Tensile</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Kanopi Membrane untuk Berbagai Kebutuhan</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Aplikasi struktur kanopi tensile membrane arsitektural yang dirancang presisi sesuai peruntukan fungsi bangunan dan daya tahan iklim tropis.
+          </p>
+</div>
+<a class="inline-flex items-center gap-space-xs font-label-md text-label-md text-secondary hover:text-on-secondary-fixed-variant font-bold transition-colors" href="https://wa.me/6285542226363?text=Halo%20Ritent,%20saya%20ingin%20tanya%20mengenai%20layanan%20kanopi%20membrane." rel="noopener noreferrer" target="_blank">
+<span>Tanyakan Model Sesuai Bangunan Anda</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+<!-- Grid 6 Use Cases -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-lg">
+<!-- Card 1: Rumah -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm flex flex-col group hover:shadow-md transition-shadow">
+<div class="h-56 overflow-hidden relative bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Modern luxury house courtyard equipped with white tensile membrane canopy shade, sleek black steel poles, tropical greenery backdrop in sunny daylight." src="assets/images/image_12.jpg"/>
+<div class="absolute top-3 left-3 bg-surface-container-lowest/90 backdrop-blur-sm px-2.5 py-1 rounded text-label-sm font-technical-mono text-on-surface">
+              Residensial
+            </div>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs flex-grow">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Kanopi Membrane Rumah</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant flex-grow">
+              Naungan estetis untuk halaman depan, teras belakang, rooftop, dan balkon rumah modern dengan sirkulasi cahaya alami yang sejuk.
+            </p>
+<div class="pt-space-xs border-t border-outline-variant/30 flex items-center justify-between text-label-sm text-on-surface-variant">
+<span>Bentangan custom</span>
+<span class="font-technical-mono text-secondary">UV Resistant 98%</span>
+</div>
+</div>
+</div>
+<!-- Card 2: Carport -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm flex flex-col group hover:shadow-md transition-shadow">
+<div class="h-56 overflow-hidden relative bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Modern architectural tensile membrane carport canopy sheltering luxury cars in front of contemporary home, cantilever design with minimal support columns." src="assets/images/image_13.jpg"/>
+<div class="absolute top-3 left-3 bg-surface-container-lowest/90 backdrop-blur-sm px-2.5 py-1 rounded text-label-sm font-technical-mono text-on-surface">
+              Carport Garasi
+            </div>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs flex-grow">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Carport Kendaraan</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant flex-grow">
+              Perlindungan maksimal dari radiasi terik matahari dan hujan deras, dengan struktur bentang lebar tanpa tiang tengah yang mengganggu manuver kendaraan.
+            </p>
+<div class="pt-space-xs border-t border-outline-variant/30 flex items-center justify-between text-label-sm text-on-surface-variant">
+<span>Bebas manuver roda</span>
+<span class="font-technical-mono text-secondary">Struktur Cantilever</span>
+</div>
+</div>
+</div>
+<!-- Card 3: Cafe & Resto -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm flex flex-col group hover:shadow-md transition-shadow">
+<div class="h-56 overflow-hidden relative bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Outdoor dining cafe with sculptural tensile membrane roof canopy, warm ambient pendant lights, wooden dining tables, stylish evening vibe." src="assets/images/image_14.jpg"/>
+<div class="absolute top-3 left-3 bg-surface-container-lowest/90 backdrop-blur-sm px-2.5 py-1 rounded text-label-sm font-technical-mono text-on-surface">
+              F&B & Hospitality
+            </div>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs flex-grow">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Cafe & Resto Outdoor</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant flex-grow">
+              Desain ikonik bernilai arsitektur tinggi yang menciptakan ruang santai outdoor instagramable sekaligus menjaga kenyamanan pelanggan dari cuaca.
+            </p>
+<div class="pt-space-xs border-t border-outline-variant/30 flex items-center justify-between text-label-sm text-on-surface-variant">
+<span>Point of Interest</span>
+<span class="font-technical-mono text-secondary">Translucent Shade</span>
+</div>
+</div>
+</div>
+<!-- Card 4: Area Komersial -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm flex flex-col group hover:shadow-md transition-shadow">
+<div class="h-56 overflow-hidden relative bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Commercial plaza drop-off canopy structure with large tensile membrane roof, clean white architectural membrane, modern business district entrance." src="assets/images/image_3.jpg"/>
+<div class="absolute top-3 left-3 bg-surface-container-lowest/90 backdrop-blur-sm px-2.5 py-1 rounded text-label-sm font-technical-mono text-on-surface">
+              Commercial Plaza
+            </div>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs flex-grow">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Area Komersial & Drop-off</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant flex-grow">
+              Solusi peneduh untuk lobby ruko, entrance hotel, plaza pedestrian mall, dan pusat perkantoran dengan daya tarik visual megah dan profesional.
+            </p>
+<div class="pt-space-xs border-t border-outline-variant/30 flex items-center justify-between text-label-sm text-on-surface-variant">
+<span>Lobby Entrance</span>
+<span class="font-technical-mono text-secondary">High Wind Tested</span>
+</div>
+</div>
+</div>
+<!-- Card 5: Parkiran Gedung -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm flex flex-col group hover:shadow-md transition-shadow">
+<div class="h-56 overflow-hidden relative bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Wide expanse tensile membrane canopy roof over extensive commercial parking lot, clean architectural repetitive bays sheltering parked automobiles." src="assets/images/image_4.jpg"/>
+<div class="absolute top-3 left-3 bg-surface-container-lowest/90 backdrop-blur-sm px-2.5 py-1 rounded text-label-sm font-technical-mono text-on-surface">
+              Fleet Parking
+            </div>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs flex-grow">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Parkiran Gedung & Kantor</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant flex-grow">
+              Sistem kanopi membrane bentang modul panjang untuk menaungi puluhan deret kendaraan kantor, rumah sakit, maupun kawasan industri secara seragam.
+            </p>
+<div class="pt-space-xs border-t border-outline-variant/30 flex items-center justify-between text-label-sm text-on-surface-variant">
+<span>Modul Repetitif</span>
+<span class="font-technical-mono text-secondary">Efisiensi Area</span>
+</div>
+</div>
+</div>
+<!-- Card 6: Lapangan & Area Publik -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm flex flex-col group hover:shadow-md transition-shadow">
+<div class="h-56 overflow-hidden relative bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Open air sports court amphitheater covered by sweeping architectural tensile fabric roof, bright clean outdoor recreation facility." src="assets/images/image_5.jpg"/>
+<div class="absolute top-3 left-3 bg-surface-container-lowest/90 backdrop-blur-sm px-2.5 py-1 rounded text-label-sm font-technical-mono text-on-surface">
+              Fasilitas Publik
+            </div>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs flex-grow">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Lapangan & Area Publik</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant flex-grow">
+              Penutup panggung terbuka, pedestrian walkway, lapangan olahraga tenis/basket, dan fasilitas rekreasi publik yang membutuhkan bentang tanpa kolom sentral.
+            </p>
+<div class="pt-space-xs border-t border-outline-variant/30 flex items-center justify-between text-label-sm text-on-surface-variant">
+<span>Bentang Lebar Bebas</span>
+<span class="font-technical-mono text-secondary">Durable Tensile</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. WHY CHOOSE RITENT -->
+<section class="w-full bg-surface-container-low py-space-2xl lg:py-space-3xl border-b border-outline-variant/30" id="keunggulan">
+<div class="max-w-[1360px] mx-auto px-gutter flex flex-col gap-space-xl">
+<div class="text-center max-w-2xl mx-auto flex flex-col gap-space-xs">
+<span class="font-technical-mono text-technical-mono text-secondary uppercase tracking-wider">Standar Mutu & Pengerjaan</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Kenapa Memilih Ritent Membrane?</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Komitmen kami adalah menghadirkan struktur kanopi membrane yang kokoh, rapi, dan fungsional tanpa janji berlebihan.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-lg">
+<!-- Pillar 1 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[28px]">architecture</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Desain Menyesuaikan Lokasi</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Konsep dan geometri kanopi disesuaikan dengan kontur lahan, titik tumpu dinding gedung, serta alur jatuhnya air hujan di lokasi Anda.
+          </p>
+</div>
+<!-- Pillar 2 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[28px]">home_work</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Dibuat untuk Berbagai Kebutuhan</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Fleksibilitas fabrikasi mencakup hunian residensial 1-2 mobil hingga kompleks komersial dan fasilitas institusi seluas ratusan meter persegi.
+          </p>
+</div>
+<!-- Pillar 3 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[28px]">forum</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Konsultasi Kebutuhan Proyek</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Diskusikan dimensi panjang x lebar, foto lokasi, dan preferensi bentuk sebelum Anda mengambil keputusan anggaran rancangan.
+          </p>
+</div>
+<!-- Pillar 4 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[28px]">account_tree</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Pengerjaan yang Terstruktur</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Alur kerja terdokumentasi rapi: konsultasi awal, pengukuran tapak, penawaran transparan, fabrikasi presisi bengkel, hingga perakitan di tempat.
+          </p>
+</div>
+<!-- Pillar 5 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[28px]">verified</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Material Berkualitas & Teruji</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Kain membran standar arsitektural (Heytex, Serge Ferrari, AGTex) dengan formula anti-jamur, tahan bara api, dan ketahanan cuaca tropis berumur panjang.
+          </p>
+</div>
+<!-- Pillar 6: Workshop Nyata -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[28px]">precision_manufacturing</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Workshop & Tim Fabrikasi Sendiri</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Proses pengelasan pipa baja dan pemotongan high-frequency welding membrane dilakukan langsung di workshop kami di Pulo Gebang, Jakarta Timur.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. PORTFOLIO SHOWCASE -->
+<section class="w-full bg-surface-container-lowest py-space-2xl lg:py-space-3xl border-b border-outline-variant/30" id="portfolio">
+<div class="max-w-[1360px] mx-auto px-gutter flex flex-col gap-space-xl">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs max-w-2xl">
+<span class="font-technical-mono text-technical-mono text-secondary uppercase tracking-wider">Dokumentasi Lapangan</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Hasil Pekerjaan Kanopi Membrane</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Ragam tipe instalasi struktur kanopi dan tenda membrane yang telah selesai kami kerjakan dengan ketelitian detail.
+          </p>
+</div>
+<div class="flex items-center gap-2">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 bg-surface-container rounded-full text-label-sm font-technical-mono text-on-surface-variant">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+            Real Project Photography
+          </span>
+</div>
+</div>
+<!-- Portfolio Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-lg">
+<!-- Item 1: Using the provided user image as benchmark hero project -->
+<div class="bg-surface rounded-xl overflow-hidden shadow-sm flex flex-col group hover:shadow-md transition-all">
+<div class="h-64 overflow-hidden relative bg-surface-container">
+<img alt="Proyek Carport Residensial Mewah di Jakarta Selatan oleh Ritent Membrane" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="assets/images/image_6.jpg"/>
+<div class="absolute bottom-3 left-3 bg-surface-container-lowest/90 backdrop-blur-sm px-2.5 py-1 rounded text-label-sm font-technical-mono text-on-surface">
+              Jakarta Selatan
+            </div>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs">
+<span class="font-technical-mono text-technical-mono text-secondary">CARPORT RESIDENSIAL PREMIUM</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Hunian Modern Pondok Indah</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Bentuk parabolic hypar dengan pipa tiang galvanis heavy-duty dan tarikan sling stainless, memayungi 2 unit mobil keluarga.
+            </p>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="bg-surface rounded-xl overflow-hidden shadow-sm flex flex-col group hover:shadow-md transition-all">
+<div class="h-64 overflow-hidden relative bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Modern beach club outdoor cafe canopy membrane in Pantai Indah Kapuk, white fabric tension sail covering dining terrace, sunny coastal atmosphere." src="assets/images/image_7.jpg"/>
+<div class="absolute bottom-3 left-3 bg-surface-container-lowest/90 backdrop-blur-sm px-2.5 py-1 rounded text-label-sm font-technical-mono text-on-surface">
+              Pantai Indah Kapuk (PIK)
+            </div>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs">
+<span class="font-technical-mono text-technical-mono text-secondary">CAFE & LOUNGE OUTDOOR</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Alfresco Dining Canopy PIK 2</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Tensile membrane multi-point sail shade yang memberikan keteduhan maksimal bagi pengunjung restoran di pesisir utara Jakarta.
+            </p>
+</div>
+</div>
+<!-- Item 3 -->
+<div class="bg-surface rounded-xl overflow-hidden shadow-sm flex flex-col group hover:shadow-md transition-all">
+<div class="h-64 overflow-hidden relative bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Commercial center modern plaza entrance covered by a large cone tensile membrane canopy, clean structural engineering in Tangerang." src="assets/images/image_8.jpg"/>
+<div class="absolute bottom-3 left-3 bg-surface-container-lowest/90 backdrop-blur-sm px-2.5 py-1 rounded text-label-sm font-technical-mono text-on-surface">
+              Serpong, Tangerang
+            </div>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs">
+<span class="font-technical-mono text-technical-mono text-secondary">PLAZA KOMERSIAL</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Drop-off Area Rukan Komersial</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Struktur membrane cone model dengan tiang sentral tunggal untuk perlindungan area masuk lobi tanpa menghalangi lajur sirkulasi kendaraan.
+            </p>
+</div>
+</div>
+<!-- Item 4 -->
+<div class="bg-surface rounded-xl overflow-hidden shadow-sm flex flex-col group hover:shadow-md transition-all">
+<div class="h-64 overflow-hidden relative bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Long barrel vault tensile membrane roof covering multi-vehicle office parking lot in Jakarta Pusat, overcast bright sky." src="assets/images/image_9.jpg"/>
+<div class="absolute bottom-3 left-3 bg-surface-container-lowest/90 backdrop-blur-sm px-2.5 py-1 rounded text-label-sm font-technical-mono text-on-surface">
+              Jakarta Pusat
+            </div>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs">
+<span class="font-technical-mono text-technical-mono text-secondary">PARKIRAN KANTOR</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Gedung Kantor BUMN Sudirman</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Instalasi atap kanopi membrane modular bentang 60 meter persegi untuk parkir mobil dinas dan operasional kantor.
+            </p>
+</div>
+</div>
+<!-- Item 5 -->
+<div class="bg-surface rounded-xl overflow-hidden shadow-sm flex flex-col group hover:shadow-md transition-all">
+<div class="h-64 overflow-hidden relative bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Tropical luxury resort villa in Sentul hills with tensile membrane terrace canopy overlooking infinity pool and lush mountain view." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDlffYpCnj3bOX-ayBo9KmfMO6tA5o4r3LBfoHxFZDzl_GjKawEw_5ZZI6t_E7JqGXkvJQSe3sKh3WBTidR8GA78sDGkGggcvbgYA_YaqSF-JfkfHps8PtE3zkWg62LEPdStT_m5N9UcLAmeuLHq-OGBL4go5YfY9njk4UI6tZaCJCU5Ke-sMK5GCn5OP-Ib5XrWSCawvkXCr28ZHtzSsorvKhxTdqplDxnTxFfXEs"/>
+<div class="absolute bottom-3 left-3 bg-surface-container-lowest/90 backdrop-blur-sm px-2.5 py-1 rounded text-label-sm font-technical-mono text-on-surface">
+              Sentul, Bogor
+            </div>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs">
+<span class="font-technical-mono text-technical-mono text-secondary">VILLA & RESORT</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Kanopi Teras Kolam Villa Tropis</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Perpaduan tiang baja profil melengkung dengan kain membrane Serge Ferrari untuk ketahanan terhadap cuaca lembap dan hujan dataran tinggi.
+            </p>
+</div>
+</div>
+<!-- Item 6 -->
+<div class="bg-surface rounded-xl overflow-hidden shadow-sm flex flex-col group hover:shadow-md transition-all">
+<div class="h-64 overflow-hidden relative bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Pedestrian walkway tensile fabric canopy connecting buildings in Bekasi commercial park, bright daylight." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCKJixVTTCHL-m25FpSOX9Eu_re0sRdTM0CmzRYAOm2Z9IXlZnB_C-rPQiZ_QhNDdONfHoZbbrRsMNuvcBFwnjbwjidlqB0q2mfqjHHVkUnUhDmOdQnTsLQw8zxg2r6xvFYUUo5vgXIZdU2cPXax7gUA-iDk2Hbt3eQfgLr9mMBQuicF66KE7JLoJOAW-raKHxBJyHfOYqOXdFp--eJowsU4t3kvn5P6hCUAaGbjmw"/>
+<div class="absolute bottom-3 left-3 bg-surface-container-lowest/90 backdrop-blur-sm px-2.5 py-1 rounded text-label-sm font-technical-mono text-on-surface">
+              Bekasi Barat
+            </div>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs">
+<span class="font-technical-mono text-technical-mono text-secondary">AREA PUBLIK & WALKWAY</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Pedestrian Koridor Rumah Sakit</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Kanopi koridor pejalan kaki tahan terpaan angin kencang yang menghubungkan gedung instalasi gawat darurat dengan area parkir ambulans.
+            </p>
+</div>
+</div>
+</div>
+<!-- Action Button Under Portfolio -->
+<div class="p-space-lg rounded-xl bg-surface-container flex flex-col sm:flex-row items-center justify-between gap-space-md">
+<div class="flex flex-col gap-1 text-center sm:text-left">
+<span class="font-headline-sm text-label-md font-bold text-on-surface">Ingin struktur kanopi dengan gaya serupa?</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Kirimkan ukuran perkiraan atau foto area untuk mendapatkan analisa desain dari tim Ritent.</span>
+</div>
+<a class="inline-flex items-center gap-space-xs px-space-lg py-3 bg-secondary text-on-secondary rounded font-label-md text-label-md hover:bg-secondary-fixed-variant transition-all shrink-0" href="https://wa.me/6285542226363?text=Halo%20Ritent,%20saya%20tertarik%20dengan%20model%20proyek%20kanopi%20membrane%20di%20portfolio%20Anda." rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">chat</span>
+<span>Konsultasikan Kebutuhan Mirip Proyek Ini</span>
+</a>
+</div>
+</div>
+</section>
+<!-- 6. MATERIAL & KONSTRUKSI -->
+<section class="w-full bg-surface py-space-2xl lg:py-space-3xl border-b border-outline-variant/30" id="material-konstruksi">
+<div class="max-w-[1360px] mx-auto px-gutter flex flex-col gap-space-xl">
+<div class="text-center max-w-2xl mx-auto flex flex-col gap-space-xs">
+<span class="font-technical-mono text-technical-mono text-secondary uppercase tracking-wider">Spesifikasi Komponen Fisik</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Dirancang Sesuai Kebutuhan Area</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Pahami elemen utama konstruksi kanopi membrane arsitektural kami yang memadukan kekuatan baja dan fleksibilitas tekstil.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-space-md">
+<!-- Element 1 -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col gap-space-sm">
+<div class="w-10 h-10 rounded bg-surface-container flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[24px]">layers</span>
+</div>
+<h3 class="font-headline-sm text-label-md font-bold text-on-surface">Kain Membrane Tensile</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant flex-grow">
+            Kain membran PVC/PVDF tahan cuaca panas terik dan hujan tropis lebat. Dilengkapi lapisan anti-jamur, anti-UV, dan self-cleaning coating.
+          </p>
+<div class="bg-surface-container-low p-2 rounded text-technical-mono font-technical-mono text-on-surface-variant">
+            Gramasi: 650 - 950 gsm
+          </div>
+</div>
+<!-- Element 2 -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col gap-space-sm">
+<div class="w-10 h-10 rounded bg-surface-container flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[24px]">construction</span>
+</div>
+<h3 class="font-headline-sm text-label-md font-bold text-on-surface">Rangka Struktur Baja</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant flex-grow">
+            Pipa besi galvanis tebal medium/heavy atau hollow pipa baja struktural. Dilapisi cat dasar epoxy anti-karat dan finishing polyurethane.
+          </p>
+<div class="bg-surface-container-low p-2 rounded text-technical-mono font-technical-mono text-on-surface-variant">
+            Pipa Pipa Besi & Galvanis
+          </div>
+</div>
+<!-- Element 3 -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col gap-space-sm">
+<div class="w-10 h-10 rounded bg-surface-container flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[24px]">cable</span>
+</div>
+<h3 class="font-headline-sm text-label-md font-bold text-on-surface">Aksesoris & Kabel Sling</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant flex-grow">
+            Kabel sling baja stainless steel SS304/SS316, turnbuckle jarum keras, dan clamping plate laser cut untuk tegangan kain yang stabil dan kokoh.
+          </p>
+<div class="bg-surface-container-low p-2 rounded text-technical-mono font-technical-mono text-on-surface-variant">
+            Hardware: SS304 / SS316
+          </div>
+</div>
+<!-- Element 4 -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col gap-space-sm">
+<div class="w-10 h-10 rounded bg-surface-container flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[24px]">polyline</span>
+</div>
+<h3 class="font-headline-sm text-label-md font-bold text-on-surface">Bentuk Geometris</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant flex-grow">
+            Bentuk Hyperbolic Paraboloid (Hypar pelana kuda), Conical (kerucut payung), maupun Barrel Vault disesuaikan dengan arsitektur bangunan.
+          </p>
+<div class="bg-surface-container-low p-2 rounded text-technical-mono font-technical-mono text-on-surface-variant">
+            Hypar • Cone • Vault
+          </div>
+</div>
+<!-- Element 5 -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col gap-space-sm">
+<div class="w-10 h-10 rounded bg-surface-container flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[24px]">engineering</span>
+</div>
+<h3 class="font-headline-sm text-label-md font-bold text-on-surface">Instalasi Presisi</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant flex-grow">
+            Pemasangan teliti oleh teknisi berpengalaman lapangan untuk memastikan tegangan kain optimal, tidak kendur, dan bebas genangan air saat hujan.
+          </p>
+<div class="bg-surface-container-low p-2 rounded text-technical-mono font-technical-mono text-on-surface-variant">
+            Zero Puddle Tensioning
+          </div>
+</div>
+</div>
+</div>
+</section>
+<!-- 7. HOW IT WORKS / CARA KERJA -->
+<section class="w-full bg-surface-container-low py-space-2xl lg:py-space-3xl border-b border-outline-variant/30" id="cara-kerja">
+<div class="max-w-[1360px] mx-auto px-gutter flex flex-col gap-space-xl">
+<div class="text-center max-w-2xl mx-auto flex flex-col gap-space-xs">
+<span class="font-technical-mono text-technical-mono text-secondary uppercase tracking-wider">Transparansi Tahapan</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Proses Konsultasi & Pengerjaan</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Alur kerja praktis dan terstruktur dari awal hingga kanopi siap digunakan tanpa proses yang membingungkan.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-5 gap-space-md">
+<!-- Step 1 -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col gap-space-xs relative">
+<span class="font-technical-mono text-[28px] font-bold text-secondary">01</span>
+<h3 class="font-headline-sm text-label-md font-bold text-on-surface">Konsultasi Awal</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Hubungi kami via WhatsApp (085542226363). Diskusikan gambaran umum rencana kanopi membrane Anda.
+          </p>
+</div>
+<!-- Step 2 -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col gap-space-xs relative">
+<span class="font-technical-mono text-[28px] font-bold text-secondary">02</span>
+<h3 class="font-headline-sm text-label-md font-bold text-on-surface">Diskusi Kebutuhan</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Bahas perkiraan lokasi, ukuran luas, peruntukan fungsi (carport/cafe/dsb), serta preferensi desain.
+          </p>
+</div>
+<!-- Step 3 -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col gap-space-xs relative">
+<span class="font-technical-mono text-[28px] font-bold text-secondary">03</span>
+<h3 class="font-headline-sm text-label-md font-bold text-on-surface">Survey / Ukur</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Jika diperlukan, tim melakukan pengecekan kondisi tapak dan pengukuran fisik detail di lapangan.
+          </p>
+</div>
+<!-- Step 4 -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col gap-space-xs relative">
+<span class="font-technical-mono text-[28px] font-bold text-secondary">04</span>
+<h3 class="font-headline-sm text-label-md font-bold text-on-surface">Penawaran Resmi</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Kebutuhan dihitung secara transparan dan kami berikan dokumen estimasi penawaran harga sesuai spesifikasi.
+          </p>
+</div>
+<!-- Step 5 -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col gap-space-xs relative">
+<span class="font-technical-mono text-[28px] font-bold text-secondary">05</span>
+<h3 class="font-headline-sm text-label-md font-bold text-on-surface">Fabrikasi & Pasang</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Fabrikasi struktur di workshop, pengelasan, dan instalasi membrane di lokasi sesuai kesepakatan jadwal.
+          </p>
+</div>
+</div>
+<div class="text-center pt-space-xs">
+<a class="inline-flex items-center gap-space-xs px-space-xl py-3 bg-secondary text-on-secondary rounded font-label-md text-label-md hover:bg-secondary-fixed-variant transition-all" href="https://wa.me/6285542226363?text=Halo%20Ritent,%20saya%20ingin%20memulai%20tahap%20konsultasi%20kanopi%20membrane." rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">chat</span>
+<span>Mulai Konsultasi Tahap 1 via WhatsApp</span>
+</a>
+</div>
+</div>
+</section>
+<!-- 8. SERVICE AREA -->
+<section class="w-full bg-surface py-space-2xl lg:py-space-3xl border-b border-outline-variant/30" id="area-layanan">
+<div class="max-w-[1360px] mx-auto px-gutter flex flex-col gap-space-xl">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
+<!-- Area Details -->
+<div class="lg:col-span-7 flex flex-col gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<span class="font-technical-mono text-technical-mono text-secondary uppercase tracking-wider">Jangkauan Wilayah Kerja</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Melayani Jabodetabek & Berbagai Wilayah Indonesia</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Jangkauan pengerjaan proyek kanopi membrane fleksibel untuk kebutuhan residensial lokal maupun fasilitas komersial luar kota.
+            </p>
+</div>
+<!-- Highlight Cards -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md pt-space-xs">
+<!-- Jabodetabek Box -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col gap-space-xs">
+<div class="flex items-center gap-2 text-secondary font-bold font-label-md">
+<span class="material-symbols-outlined">location_city</span>
+<span>Wilayah Utama Jabodetabek</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Layanan survei dan pemasangan reguler mencakup Jakarta (Selatan, Barat, Timur, Utara, Pusat), Bogor, Depok, Tangerang, Tangsel, dan Bekasi.
+              </p>
+</div>
+<!-- Proyek Seluruh Indonesia -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col gap-space-xs">
+<div class="flex items-center gap-2 text-secondary font-bold font-label-md">
+<span class="material-symbols-outlined">travel_explore</span>
+<span>Proyek Luar Kota & Pulau</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Untuk kebutuhan di Jawa Barat, Jawa Tengah, Bali, Sumatra, Kalimantan, dan provinsi lain, hubungi Ritent untuk jadwal dan teknis logistik.
+              </p>
+</div>
+</div>
+<!-- Physical Address & Transparency Details -->
+<div class="bg-surface-container-low p-space-md rounded-xl flex flex-col gap-space-xs">
+<span class="font-technical-mono text-technical-mono text-on-surface uppercase font-bold">Workshop & Kantor Resmi:</span>
+<p class="font-body-md text-body-md text-on-surface">
+              Jl. Raya Pulo Gebang No.186, RT.4/RW.4, Ujung Menteng, Kec. Cakung, Kota Jakarta Timur, DKI Jakarta 13960
+            </p>
+<div class="flex flex-wrap items-center gap-space-md pt-space-xs text-label-sm font-label-sm text-on-surface-variant">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-secondary">phone</span>
+<span>085542226363</span>
+</span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-secondary">mail</span>
+<span>ritentmembrane@gmail.com</span>
+</span>
+</div>
+</div>
+</div>
+<!-- Location Map Component -->
+<div class="lg:col-span-5 flex flex-col gap-space-sm">
+<div class="w-full h-80 rounded-xl bg-surface-container shadow-md bg-cover bg-center overflow-hidden relative" data-location="Jl. Raya Pulo Gebang No.186, Cakung, Jakarta Timur" style="">
+<div class="absolute bottom-4 left-4 bg-surface-container-lowest/90 backdrop-blur-sm p-3 rounded-lg shadow-sm">
+<span class="font-technical-mono text-technical-mono text-secondary uppercase block">Lokasi Bengkel & Fabrikasi</span>
+<span class="font-headline-sm text-label-md font-bold text-on-surface">Cakung, Jakarta Timur</span>
+</div>
+</div>
+<span class="text-label-sm font-technical-mono text-on-surface-variant text-center">
+            Peta Lokasi Workshop Ritent Membrane Indonesia
+          </span>
+</div>
+</div>
+</div>
+</section>
+<!-- 9. FAQ ACCORDION -->
+<section class="w-full bg-surface-container-low py-space-2xl lg:py-space-3xl border-b border-outline-variant/30" id="faq">
+<div class="max-w-[880px] mx-auto px-gutter flex flex-col gap-space-xl">
+<div class="text-center flex flex-col gap-space-xs">
+<span class="font-technical-mono text-technical-mono text-secondary uppercase tracking-wider">Pertanyaan Teknis</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Pertanyaan yang Sering Diajukan</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Informasi dasar seputar kanopi membrane untuk membantu Anda memahami estimasi, material, dan prosedur kerja.
+        </p>
+</div>
+<!-- FAQ Items with Vanilla JS Toggle -->
+<div class="flex flex-col gap-space-sm" id="faq-container">
+<!-- FAQ 1 -->
+<div class="bg-surface-container-lowest rounded-lg shadow-sm overflow-hidden">
+<button aria-expanded="false" class="faq-toggle w-full text-left p-space-md flex items-center justify-between font-headline-sm text-headline-sm text-on-surface hover:text-secondary transition-colors" type="button">
+<span>Berapa harga kanopi membrane?</span>
+<span class="material-symbols-outlined transition-transform duration-200">expand_more</span>
+</button>
+<div class="faq-content hidden px-space-md pb-space-md text-body-md font-body-md text-on-surface-variant border-t border-outline-variant/20 pt-space-sm">
+            Harga kanopi membrane ditentukan oleh jenis dan merk bahan membrane, ketebalan gramasi kain (650–950 gsm), tingkat kerumitan desain bentuk rangka baja, luas bentangan (m²), dan kondisi lokasi pemasangan. Hubungi kami via WhatsApp dengan memberikan estimasi ukuran untuk mendapatkan perhitungan estimasi yang transparan.
+          </div>
+</div>
+<!-- FAQ 2 -->
+<div class="bg-surface-container-lowest rounded-lg shadow-sm overflow-hidden">
+<button aria-expanded="false" class="faq-toggle w-full text-left p-space-md flex items-center justify-between font-headline-sm text-headline-sm text-on-surface hover:text-secondary transition-colors" type="button">
+<span>Apakah bisa custom ukuran dan desain?</span>
+<span class="material-symbols-outlined transition-transform duration-200">expand_more</span>
+</button>
+<div class="faq-content hidden px-space-md pb-space-md text-body-md font-body-md text-on-surface-variant border-t border-outline-variant/20 pt-space-sm">
+            Ya, setiap proyek kanopi membrane di Ritent dirancang khusus (custom) menyesuaikan kondisi fisik tapak dan keinginan estetika Anda. Kami tidak memaksakan model template tunggal.
+          </div>
+</div>
+<!-- FAQ 3 -->
+<div class="bg-surface-container-lowest rounded-lg shadow-sm overflow-hidden">
+<button aria-expanded="false" class="faq-toggle w-full text-left p-space-md flex items-center justify-between font-headline-sm text-headline-sm text-on-surface hover:text-secondary transition-colors" type="button">
+<span>Apakah bisa survey lokasi?</span>
+<span class="material-symbols-outlined transition-transform duration-200">expand_more</span>
+</button>
+<div class="faq-content hidden px-space-md pb-space-md text-body-md font-body-md text-on-surface-variant border-t border-outline-variant/20 pt-space-sm">
+            Bisa. Survey lokasi dan pengukuran detail dapat dilakukan setelah diskusi awal mengenai gambaran kebutuhan proyek dan perkiraan estimasi melalui WhatsApp.
+          </div>
+</div>
+<!-- FAQ 4 -->
+<div class="bg-surface-container-lowest rounded-lg shadow-sm overflow-hidden">
+<button aria-expanded="false" class="faq-toggle w-full text-left p-space-md flex items-center justify-between font-headline-sm text-headline-sm text-on-surface hover:text-secondary transition-colors" type="button">
+<span>Apakah melayani pemasangan di luar Jakarta?</span>
+<span class="material-symbols-outlined transition-transform duration-200">expand_more</span>
+</button>
+<div class="faq-content hidden px-space-md pb-space-md text-body-md font-body-md text-on-surface-variant border-t border-outline-variant/20 pt-space-sm">
+            Ya, kami melayani seluruh area Jabodetabek (Bogor, Depok, Tangerang, Bekasi) serta proyek di berbagai kota di pulau Jawa dan luar pulau.
+          </div>
+</div>
+<!-- FAQ 5 -->
+<div class="bg-surface-container-lowest rounded-lg shadow-sm overflow-hidden">
+<button aria-expanded="false" class="faq-toggle w-full text-left p-space-md flex items-center justify-between font-headline-sm text-headline-sm text-on-surface hover:text-secondary transition-colors" type="button">
+<span>Apakah melayani seluruh Indonesia?</span>
+<span class="material-symbols-outlined transition-transform duration-200">expand_more</span>
+</button>
+<div class="faq-content hidden px-space-md pb-space-md text-body-md font-body-md text-on-surface-variant border-t border-outline-variant/20 pt-space-sm">
+            Ya, kami siap mengerjakan proyek kanopi membrane di berbagai wilayah Indonesia sesuai dengan kesepakatan volume pekerjaan dan jadwal proyek yang disepakati.
+          </div>
+</div>
+<!-- FAQ 6 -->
+<div class="bg-surface-container-lowest rounded-lg shadow-sm overflow-hidden">
+<button aria-expanded="false" class="faq-toggle w-full text-left p-space-md flex items-center justify-between font-headline-sm text-headline-sm text-on-surface hover:text-secondary transition-colors" type="button">
+<span>Berapa lama proses pengerjaan?</span>
+<span class="material-symbols-outlined transition-transform duration-200">expand_more</span>
+</button>
+<div class="faq-content hidden px-space-md pb-space-md text-body-md font-body-md text-on-surface-variant border-t border-outline-variant/20 pt-space-sm">
+            Waktu pengerjaan bergantung pada skala dan tingkat kerumitan proyek. Biasanya pengerjaan skala carport residensial memakan waktu 7–14 hari kerja untuk proses fabrikasi bengkel dan 2–4 hari perakitan di lokasi.
+          </div>
+</div>
+<!-- FAQ 7 -->
+<div class="bg-surface-container-lowest rounded-lg shadow-sm overflow-hidden">
+<button aria-expanded="false" class="faq-toggle w-full text-left p-space-md flex items-center justify-between font-headline-sm text-headline-sm text-on-surface hover:text-secondary transition-colors" type="button">
+<span>Untuk jenis area apa saja kanopi membrane bisa digunakan?</span>
+<span class="material-symbols-outlined transition-transform duration-200">expand_more</span>
+</button>
+<div class="faq-content hidden px-space-md pb-space-md text-body-md font-body-md text-on-surface-variant border-t border-outline-variant/20 pt-space-sm">
+            Sangat fleksibel: carport rumah tinggal, kafe dan resto outdoor, pinggir kolam renang, rooftop terrace, lobby entrance gedung, area drop-off hotel, hingga tribun olahraga terbuka.
+          </div>
+</div>
+<!-- FAQ 8 -->
+<div class="bg-surface-container-lowest rounded-lg shadow-sm overflow-hidden">
+<button aria-expanded="false" class="faq-toggle w-full text-left p-space-md flex items-center justify-between font-headline-sm text-headline-sm text-on-surface hover:text-secondary transition-colors" type="button">
+<span>Bagaimana cara mendapatkan penawaran?</span>
+<span class="material-symbols-outlined transition-transform duration-200">expand_more</span>
+</button>
+<div class="faq-content hidden px-space-md pb-space-md text-body-md font-body-md text-on-surface-variant border-t border-outline-variant/20 pt-space-sm">
+            Cukup kirimkan informasi ukuran perkiraan (panjang x lebar), foto lokasi saat ini jika ada, dan referensi model melalui WhatsApp kami di 085542226363. Tim kami akan menyiapkan simulasi anggaran.
+          </div>
+</div>
+<!-- FAQ 9 -->
+<div class="bg-surface-container-lowest rounded-lg shadow-sm overflow-hidden">
+<button aria-expanded="false" class="faq-toggle w-full text-left p-space-md flex items-center justify-between font-headline-sm text-headline-sm text-on-surface hover:text-secondary transition-colors" type="button">
+<span>Bagaimana cara konsultasi dengan Ritent?</span>
+<span class="material-symbols-outlined transition-transform duration-200">expand_more</span>
+</button>
+<div class="faq-content hidden px-space-md pb-space-md text-body-md font-body-md text-on-surface-variant border-t border-outline-variant/20 pt-space-sm">
+            Klik tombol ‘Konsultasi via WhatsApp’ di halaman ini atau hubungi langsung nomor 085542226363 untuk berkomunikasi langsung dengan tim teknis kami.
+          </div>
+</div>
+</div>
+</div>
+</section>
+<!-- 10. FINAL CONVERSION BANNER -->
+<section class="w-full bg-primary-container text-surface py-space-2xl lg:py-space-3xl relative overflow-hidden" id="kontak">
+<div class="max-w-[1360px] mx-auto px-gutter relative z-10">
+<div class="bg-surface-container-lowest/10 backdrop-blur-md rounded-2xl p-space-xl lg:p-space-2xl border border-surface/10 flex flex-col items-center text-center gap-space-lg">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded bg-secondary text-on-secondary font-technical-mono text-label-sm">
+<span class="w-2 h-2 rounded-full bg-secondary-fixed animate-pulse"></span>
+<span>RITENT MEMBRANE INDONESIA • RESPON CEPAT</span>
+</div>
+<h2 class="font-headline-lg lg:text-display-hero text-headline-lg font-bold text-surface max-w-3xl leading-tight">
+          Punya Rencana Membuat Kanopi Membrane?
+        </h2>
+<p class="font-body-lg text-body-lg text-surface-dim max-w-2xl">
+          Kirim kebutuhan, lokasi atau foto area yang ingin dipasang. Konsultasikan kebutuhan proyek Anda bersama tim teknisi Ritent Membrane Indonesia secara langsung dan transparan.
+        </p>
+<!-- CTA & Direct Phone -->
+<div class="flex flex-col sm:flex-row items-center gap-space-md pt-space-xs">
+<a class="inline-flex items-center gap-space-xs px-space-xl py-4 bg-secondary text-on-secondary hover:bg-secondary-fixed-variant rounded-lg font-label-md text-body-lg font-bold transition-all shadow-[0_4px_20px_rgba(0,109,48,0.35)] transform hover:-translate-y-0.5" href="https://wa.me/6285542226363?text=Halo%20Ritent,%20saya%20ingin%20konsultasi%20mengenai%20rencana%20kanopi%20membrane." rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[24px]">chat</span>
+<span>Konsultasi via WhatsApp</span>
+</a>
+<a class="inline-flex items-center gap-space-xs px-space-lg py-4 bg-surface/10 hover:bg-surface/20 text-surface rounded-lg font-label-md text-body-lg font-technical-mono transition-all" href="tel:085542226363">
+<span class="material-symbols-outlined text-[20px]">call</span>
+<span>085542226363</span>
+</a>
+</div>
+<div class="pt-space-md border-t border-surface/10 flex flex-col sm:flex-row items-center justify-center gap-space-lg text-label-sm text-surface-dim font-technical-mono">
+<span>Kantor & Workshop: Jl. Raya Pulo Gebang No.186, Cakung, Jakarta Timur</span>
+<span class="hidden sm:inline">•</span>
+<span>Melayani Jabodetabek & Seluruh Indonesia</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Script for FAQ Accordion -->
+<script>
+    (function() {
+      const toggles = document.querySelectorAll('.faq-toggle');
+      toggles.forEach(toggle => {
+        toggle.addEventListener('click', function() {
+          const content = this.nextElementSibling;
+          const icon = this.querySelector('.material-symbols-outlined');
+          const isExpanded = this.getAttribute('aria-expanded') === 'true';
+
+          // Close other open faqs
+          toggles.forEach(otherToggle => {
+            if (otherToggle !== this) {
+              otherToggle.setAttribute('aria-expanded', 'false');
+              otherToggle.nextElementSibling.classList.add('hidden');
+              const otherIcon = otherToggle.querySelector('.material-symbols-outlined');
+              if (otherIcon) otherIcon.textContent = 'expand_more';
+            }
+          });
+
+          // Toggle current
+          if (isExpanded) {
+            this.setAttribute('aria-expanded', 'false');
+            content.classList.add('hidden');
+            if (icon) icon.textContent = 'expand_more';
+          } else {
+            this.setAttribute('aria-expanded', 'true');
+            content.classList.remove('hidden');
+            if (icon) icon.textContent = 'expand_less';
+          }
+        });
+      });
+    })();
+  </script>
+</div></main><aside class="fixed bottom-6 right-6 z-50"><a class="group flex items-center gap-space-sm pl-space-md pr-space-lg py-space-sm bg-secondary text-on-secondary rounded-full shadow-[0_4px_16px_rgba(0,109,48,0.28)] hover:bg-secondary-fixed-dim hover:text-on-secondary-fixed transition-all transform hover:-translate-y-0.5 border border-secondary-fixed/30" href="https://wa.me/6285542226363?text=Halo%20Ritent,%20saya%20ingin%20konsultasi%20mengenai%20jasa%20kanopi%20membrane." rel="noopener noreferrer" target="_blank"><div class="w-10 h-10 rounded-full bg-secondary-fixed/20 flex items-center justify-center relative"><span class="material-symbols-outlined text-[24px]">chat</span><span class="absolute top-0 right-0 w-2.5 h-2.5 bg-secondary-fixed rounded-full animate-ping"></span><span class="absolute top-0 right-0 w-2.5 h-2.5 bg-secondary-fixed rounded-full"></span></div><div class="flex flex-col text-left"><span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary-fixed font-technical-mono leading-none">Tersedia Online</span><span class="font-headline-sm text-[15px] font-bold leading-tight">Konsultasi Teknis</span></div></a></aside><footer class="w-full bg-surface-container-low text-on-surface border-t border-outline-variant/30 mt-space-3xl"><div class="max-w-[1360px] mx-auto px-gutter py-space-3xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-space-xl"><div class="lg:col-span-5 flex flex-col gap-space-md"><div class="flex items-center gap-space-md"><img alt="Ritent Membrane Indonesia Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WpbArL2iWr9b7TeaCtjtbrlrsJIu8aEK46-9o3ukhnLeaAriyDhW8nHs93AzRiAi0y-UEMr9SzcafKzx5LrYasnVQVc7lWnenejViDz8_GuvD1Ciaeu2K2i0YoUoHBc-qxL-0eyCBG1XMPCMvDjajMO8Hh7FESEr6hwIPHPNwPYFItBruJNhFM2-k8TkTCzfDfALz-ZIiOhR1K2gfZK7AgNpgmcW_mnT2KKEJxX2I"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm uppercase tracking-tight text-on-surface font-bold">Ritent Membrane Indonesia</span><span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Spesialis Kanopi & Tenda Membrane</span></div></div><p class="font-body-md text-body-md text-on-surface-variant max-w-md">Perusahaan fabrikasi dan konstruksi struktur tensile membrane presisi tinggi untuk komersial, resort, kanopi parkir, dan residensial premium dengan standar teknik tahan iklim tropis Indonesia.</p><div class="flex items-center gap-space-sm pt-space-xs"><span class="inline-flex items-center px-space-sm py-1 bg-surface-container-highest text-on-surface rounded font-technical-mono text-label-sm"><span class="material-symbols-outlined text-[16px] mr-1 text-secondary">verified</span>Garansi Material Hingga 15 Tahun</span></div></div><div class="lg:col-span-3 flex flex-col gap-space-md"><span class="font-label-md text-label-md uppercase tracking-wider text-on-surface font-bold border-b border-outline-variant/30 pb-space-xs">Kantor & Workshop</span><div class="flex flex-col gap-space-sm text-body-sm font-body-sm text-on-surface-variant"><div class="flex items-start gap-space-xs"><span class="material-symbols-outlined text-[18px] text-secondary shrink-0 mt-0.5">apartment</span><span>Jl. Raya Pulo Gebang No.186, RT.4/RW.4, Ujung Menteng, Kec. Cakung, Kota Jakarta Timur, DKI Jakarta 13960</span></div><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[18px] text-secondary shrink-0">phone</span><a class="hover:text-on-surface font-technical-mono" href="tel:085542226363">085542226363</a></div><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[18px] text-secondary shrink-0">mail</span><a class="hover:text-on-surface" href="mailto:ritentmembrane@gmail.com">ritentmembrane@gmail.com</a></div><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[18px] text-secondary shrink-0">travel_explore</span><span>Jabodetabek & Seluruh Indonesia</span></div></div></div><div class="lg:col-span-2 flex flex-col gap-space-md"><span class="font-label-md text-label-md uppercase tracking-wider text-on-surface font-bold border-b border-outline-variant/30 pb-space-xs">Navigasi Cepat</span><div class="flex flex-col gap-space-sm font-label-md text-label-md text-on-surface-variant"><a class="hover:text-on-surface transition-colors" data-path="layanan" href="#">Layanan Desain & Pasang</a><a class="hover:text-on-surface transition-colors" data-path="portfolio" href="#">Portfolio Proyek</a><a class="hover:text-on-surface transition-colors" data-path="cara-kerja" href="#">Tahapan Cara Kerja</a><a class="hover:text-on-surface transition-colors" data-path="faq" href="#">Tanya Jawab (FAQ)</a><a class="hover:text-on-surface transition-colors" data-path="kontak" href="#">Kontak & Estimasi Biaya</a></div></div><div class="lg:col-span-2 flex flex-col gap-space-md"><span class="font-label-md text-label-md uppercase tracking-wider text-on-surface font-bold border-b border-outline-variant/30 pb-space-xs">Legalitas & Dokumen</span><div class="flex flex-col gap-space-sm font-label-md text-label-md text-on-surface-variant"><a class="hover:text-on-surface transition-colors" data-path="kebijakan-privasi" href="#">Kebijakan Privasi</a><a class="hover:text-on-surface transition-colors" data-path="syarat-ketentuan" href="#">Syarat & Ketentuan</a><a class="hover:text-on-surface transition-colors" data-path="sertifikasi-garansi" href="#">Sertifikasi & Garansi</a><a class="hover:text-on-surface transition-colors" data-path="brosur-spesifikasi" href="#">Unduh Brosur Teknis</a></div></div></div><div class="mt-space-2xl pt-space-lg border-t border-outline-variant/20 flex flex-col sm:flex-row items-center justify-between gap-space-md text-label-sm font-label-sm text-on-surface-variant"><p>© 2025 PT Ritent Membrane Indonesia. Seluruh hak cipta dilindungi undang-undang.</p><p class="font-technical-mono text-technical-mono">Precision Tensile Structure Engineering</p></div></div></footer></body></html>
